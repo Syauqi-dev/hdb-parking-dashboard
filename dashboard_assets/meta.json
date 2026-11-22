@@ -1,0 +1,50 @@
+{
+  "created": "2026-11-11T22:29:47",
+  "sklearn": "1.9.1",
+  "horizon_minutes": 120,
+  "cutoff": 0.45,
+  "val_bal_acc": 0.9541883652252858,
+  "features": [
+    "occ_now",
+    "d_30",
+    "d_1h",
+    "d_2h",
+    "lag24",
+    "lagweek",
+    "prof_T",
+    "prof_change",
+    "occ_minus_thr",
+    "cp_thr",
+    "cp_mean",
+    "total_lots",
+    "tod_sin",
+    "tod_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_weekend",
+    "is_holiday"
+  ],
+  "splits": {
+    "train": [
+      "2024-03-08",
+      "2024-04-16"
+    ],
+    "val": [
+      "2024-04-16",
+      "2024-05-01"
+    ],
+    "test": [
+      "2024-05-01",
+      "2024-06-01"
+    ]
+  },
+  "test_rows": 26074,
+  "metrics": {
+    "bal_acc": 0.9404265165821943,
+    "recall_high": 0.9473684210526315,
+    "precision_high": 0.7681660899653979,
+    "roc_auc": 0.9868840985927775,
+    "mae": 0.017745281835076183,
+    "r2": 0.9626951301237286
+  }
+}

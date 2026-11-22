@@ -1,0 +1,2 @@
+real_mae,shuffled_mae_mean,real_r2,shuffled_r2_mean,n_shuffles
+0.01719,0.13178,0.97178,0.08964,3
